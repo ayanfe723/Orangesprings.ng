@@ -1,0 +1,183 @@
+*{
+    font-family: Poppins regular;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-items:center ;
+    /* justify-content: center; */
+    gap: 1rem;
+    align-content: center;
+    /* background-image: url(../assets/login\ background\ image.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+
+.det{
+    color: white;
+    margin-top: 35px;
+}
+
+.det a{
+    color: white;
+    text-decoration: none;
+}
+
+.Note{
+    color: yellow;
+    /* width: 500px; */
+    text-align: center;
+}
+
+body{
+    background-image: url(../assets/new\ log2.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.sp{
+    color: whitesmoke;
+    margin-top: 55px;
+    font-size: 70px;
+}
+
+#refreshButton{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: rgb(144, 207, 207);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+#logoutButton{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: rgb(144, 207, 207);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 975px;
+    margin-top: -75px;
+}
+.con2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: rgb(239, 65, 65);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    /* margin-left: 975px; */
+    text-decoration: none;
+    margin-top: -75px;
+}
+.con2 a{
+    text-decoration: none;
+    color: black;
+}
+@font-face {
+    font-family:"Dancing Font";
+    src: url('fonts/Dancing\ Script.ttf');
+}
+@font-face {
+    font-family:"5th Grade Cursive";
+    src: url('fonts/5thgradecursive-2.ttf');
+}
+@font-face {
+    font-family: "Choco Shake";
+    src: url('fonts/Choco\ Shake.ttf');
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("fonts/Roboto-Regular.ttf");
+    
+}
+@font-face {
+        font-family: "Poppins Regular";
+        src: url('fonts/Poppins-Regular.otf');
+    }
+@font-face {
+    font-family: "Old English";
+    src: url('fonts/EnglishTowne.ttf');
+}
+.log{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: orangered;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.log2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: orangered;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.log2 a{
+    color: black;
+    text-decoration: none;
+}
+form{
+    margin-top: 70px;
+    padding: 1px;
+}
+#portal-content{
+    color: white;
+    display: none;
+    margin-top: 45px;
+}
+.con{
+    background-color: rgb(148, 187, 81);
+    outline: none;
+    border: none;
+    margin-top: 45px;
+    padding: 15px 45px;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.con:focus{
+    background-color: red;
+}
+#password{
+    padding: 10px 10px;
+    background-color: #ea5858;
+    outline: none;
+    border: none;
+}
+#username{
+    padding: 10px 10px;
+    background-color: #6ed0df;
+    outline: none;
+    border: none;
+}
+.sp2{
+    color: whitesmoke;
+    margin-top: -35px;
+    margin-bottom: 35px;
+}
